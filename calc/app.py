@@ -3,7 +3,7 @@ from .settings import VERSION
 
 app = Flask(__name__)
 
-@app.route("/sum")
+@app.route("/add")
 def sum():
     a = int(request.args["a"])
     b = int(request.args["b"])
