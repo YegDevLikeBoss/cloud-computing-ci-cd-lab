@@ -14,4 +14,4 @@ def ver():
     return {"v": VERSION}, 200
 
 def sum(a, b):
-    return a - b
+    return a + b
